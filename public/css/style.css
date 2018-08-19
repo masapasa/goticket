@@ -1,0 +1,194 @@
+.listTitle {
+ 
+ margin-left: 15%;
+ 
+}
+
+.signUpLink{
+ margin-left: 15%;
+ margin-top: 10%;	
+}
+.selectAreaBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#map {
+  width: 400px;
+  height: 400px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: -10;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.areaSelectFull {
+  background-image: url('./../assets/areaSelect.png');
+  background-size: 400px;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}
+
+.areaSelectChunk {
+  height: 100px;
+}
+
+.areaSelectChunk:hover {
+  background-color: white;
+  opacity: 0.4;
+}
+
+.key {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.key > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.otherListLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.first_link {
+
+    display: block;
+    width:  100%;
+    height:  100%;
+	top: 30px;
+
+	margin-right:auto;
+	margin-left: auto;
+
+	background: #ffffff;
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+
+    border-radius: 25px;
+	display:block;
+}
+.second_link {
+	top: 30px;
+	margin-top: 30px;
+	margin-right:auto;
+	margin-left: auto;
+
+	background: #ffffff;
+	width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+
+    border-radius: 25px;
+	display:block;
+
+}
+
+
+h2 {
+font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya', serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Lora', serif;}
+h1 {
+font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+}
+div {
+	font-family: 'Germania One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya', serif;
+
+}
+h3 {
+	font-family: 'Rakkas', cursive;
+	color: #3e3f50;
+}
+h4 {
+	color: #3e3f50;
+	font-family: 'Mogra', cursive;
+}
+
+.img_2 {
+	width: 400px;
+	height:150px;
+	padding-top: 12px;
+
+}
+
+.header {
+    background-color : #4fc3f7;
+    color:#f7f7eb;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+.left_con{
+
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+.right_con{
+    background-color :#ffffff;
+   font-family: 'Pathway Gothic One', sans-serif;
+}
+@media only screen and (min-width : 800px) {
+    .second_link{
+		margin-top:0;
+		margin-left:12%;
+    }
+
+    .first_link[class*="col-"] {
+       margin-left:12%;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,
+    width=device-width" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- load bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+              aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand h4" href="/">
+            <b>goTicket</b>
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/information">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/location">Map</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">German</a>
+                  <a class="dropdown-item" href="#">English</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+		<div class="container">
+
+			<div class="row header">
+				<div class="col-sd-12 ">
+					<img class="img-responsive center-block  img_2 pers_img" src="Images/a7la-chai.png" data-toggle="modal" data-target="#project1" alt="Khaleds img">
+				</div>
+				</div>
+
+
+			</div>
+   <style>
+      .card {
+          margin: 10px 15px 10px 15px
+      }
+      .card.household{
+          background-color: #e7edf1;
+      }
+      .card.vendor{
+          background-color: #e7edf1;
+      }
+      .card.plant{
+          background-color: #e7edf1;
+      }
+
+    </style>
+
+    <div class="row">
+        <div class="col-sm-12" >
+            <a href="./listKnowledge.html">
+          <div class="card household">
+		    <div class="card-body " style="display: flex; justify-content: center;">
+			 <img class="img-responsive center-block pers_img" src="Images/Untitled-1s.png" data-toggle="modal" data-target="#project1" alt="Consumer" style=" height: 60px; width: 60px; ">
+
+             <div><h5 class="card-title ">Consumer</h5>
+             <p class="card-text">Find all information about water quality for your familiy</p>
+            </div> </div>
+          </div>
+        </a>
+        </div>
+        <div class="col-sm-12">
+		<a href="./listKnowledgeProducers.html">
+          <div class="card vendor">
+           <div class="card-body " style="display: flex; justify-content: center;">
+			 <img class="img-responsive center-block pers_img" src="Images/Water Vendor.png" data-toggle="modal" data-target="#project1" alt="Water Vendor" style=" height: 60px; width: 60px; ">
+
+              <div><h5 class="card-title">Map</h5>
+              <p class="card-text">Get to know how to make water supply better </p>
+            </div> </div>
+          </div>
+		  </a>
+        </div>
+        <div class="col-sm-12">
+		<a href="#">
+            <div class="card plant">
+             <div class="card-body " style="display: flex; justify-content: center;">
+			 <img class="img-responsive center-block pers_img" src="Images/Water Vendors .png" data-toggle="modal" data-target="#project1" alt="Map " style=" height: 60px; width: 60px; ">
+
+             <div>
+                <h5 class="card-title">Map</h5>
+                <p class="card-text">Find how to produce the best quality water for citizen </p>
+              </div></div>
+            </div>
+			</a>
+          </div>
+
+      </div>
+  </body>
+</html>

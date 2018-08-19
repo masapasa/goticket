@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,
+    width=device-width" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand h4" href="/index">
+                  <b>goTicket</b>
+                </a>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/location">Map</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">German</a>
+                        <a class="dropdown-item" href="#">English</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+      </nav>
+<style>
+
+</style>
+    <div class="col-sm-12">
+        <div class="content">
+            <h3>Water Producers-Certified Training Course </h3>
+            <p>This course will provide you with fundamental knowledge and practical skills about how to optimize the operation and maintenance of your water desalination plant. It will help you to reduce your O+M-cost and to understand your responsibility to produce safe drinking water. </p>
+        </div>
+        <div class="accordion" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Operation and Maintenance Skills
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                       <ul>
+                           <li>Theory of Operation of RO-unit</li>
+                           <li>Technical equipment and standards</li>
+                           <li>Equipment Calibration</li>
+                           <li>Monitoring and Controls</li>
+                           <li>Routine Maintenance</li>
+                           <li>Maintenance and Cleaning Procedures</li>
+                           <li>Handling system failures</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            Water Safety
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                       <ul>
+                           <li>Public Health</li>
+                           <li>Water handling</li>
+                           <li>Drinking Water Safety</li>
+                           <li>Water Quality Testing</li>
+                           <li>Emergency preparedness: storage capacity, alternative power supply</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            Business Management
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li>Business license: how and why?</li>
+                            <li>Financial administration</li>
+                            <li>Business planning</li>
+                            <li>Business growth</li>
+                            <li>Business responsibility to provide safe water</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Duration: 4 weeks – Online course + Face-to-Face trainings</p>
+        <br/>
+        <div class="video">
+                <object 
+                data="https://www.youtube.com/watch?v=_yNkzrJPZas">
+                </object>
+        </div>
+
+        <div class="row">
+                <div class="col-md-8">
+                  <h2 class="page-header">Comments</h2>
+                  <hr/>
+                  <form>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                  <button type="button" class="btn btn-light">Submit</button>
+                </form> 
+                <br/>
+                    <section class="comment-list">
+                      <!-- First Comment -->
+                      <article class="row">
+                        <div class="col-md-10 col-sm-10">
+                          <div class="panel panel-default left">
+                            <div class="panel-body">
+                              <header class="text-left">
+                                <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                                <time class="comment-date" datetime="16-12-2014 01:05"> Dec 16, 2014</time>
+                              </header>
+                              <div class="comment-post">
+                                <p>
+                                 Sounds good! I will definately sign up!
+                                </p>
+                              </div>
+                              <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <!-- Second Comment -->
+                      <article class="row">
+                            <div class="col-md-10 col-sm-10">
+                              <div class="panel panel-default left">
+                                <div class="panel-body">
+                                  <header class="text-left">
+                                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                                    <time class="comment-date" datetime="16-12-2014 01:05">Dec 16, 2014</time>
+                                  </header>
+                                  <div class="comment-post">
+                                    <p>
+                                        Is the certificate free?
+                                    </p>
+                                  </div>
+                                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                    
+                    </section>
+                </div>
+              </div>
+    </div>
+
+</body>
+
+
+</html>
